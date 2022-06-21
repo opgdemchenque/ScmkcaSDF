@@ -3,7 +3,6 @@
 ####
 ✔ Configured a Tauri window 
 ✔ Primative UI components (Button, Input, Shortcut etc) 
-✔ Connect & create sqlite database in application data folder
 ✔ Auto migrate database on app launch 
 ✔ Define data schema in Rust 
 ✔ Scan given directory recursively and write to database 
