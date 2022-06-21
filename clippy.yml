@@ -12,7 +12,6 @@ on:
 env:
   CARGO_INCREMENTAL: 1
   SPACEDRIVE_CUSTOM_APT_FLAGS: --no-install-recommends
-  SPACEDRIVE_SKIP_PNPM_CHECK: true
 
 jobs:
   clippy_check:
@@ -20,8 +19,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      
-      - name: Install Rust stable
+     
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
